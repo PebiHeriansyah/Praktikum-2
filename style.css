@@ -299,3 +299,22 @@ nav ul li a:hover{
 .contact-form button:hover {
     background-color: #ff4400;
 }
+
+@media (max-width: 768px) {
+  .menu .row .menu-card {
+    width: 50%;
+  
+  .contact .row {
+    flex-wrap: wrap;
+  }
+  
+  .contact .row .map {
+    height: 30rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu .row .menu-card {
+    width: 100%;
+  }
+}
